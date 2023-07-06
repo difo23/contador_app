@@ -46,3 +46,6 @@ Entregas por medio de Pull Requests - Crear un README_TU_NOMBRE.md en caso de ag
 - TouchableWithoutFeedback
 
 El objetivo propiamente, es adentrarnos en nuestras primeras experiencias con React Native para crear una aplicación simple que nos de la noción de cómo trabajar en este framework, pero a la vez, dejarnos con la intriga de todo lo que estamos a punto de aprender :)
+
+
+## Documentacion para la rama login
