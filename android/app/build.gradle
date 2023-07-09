@@ -151,6 +151,7 @@ android {
             keyPassword 'android'
         }
     }
+    namespace 'com.miprimeraapp'
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
@@ -212,7 +213,7 @@ dependencies {
 // Run this once to be able to run the application with BUCK
 // puts all compile dependencies into folder libs for BUCK to use
 task copyDownloadableDepsToLibs(type: Copy) {
-    from configurations.compile
+    from configurations.implementation
     into 'libs'
 }
 
