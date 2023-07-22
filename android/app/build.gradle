@@ -151,6 +151,7 @@ android {
             keyPassword 'android'
         }
     }
+    namespace 'com.miprimeraapp'
     buildTypes {
         debug {
             signingConfig signingConfigs.debug

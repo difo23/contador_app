@@ -5,13 +5,13 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "^0.63.4"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
