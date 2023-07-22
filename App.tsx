@@ -1,10 +1,6 @@
 import React from 'react';
-// import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
-import {ContadorScreen} from './src/screens/ContadorScreen';
+import LandingPage from './src/components/pages/LandingPage';
 
 export const App = () => {
-  return (
-    // <HolaMundoScreen />
-    <ContadorScreen />
-  );
+  return <LandingPage />;
 };
