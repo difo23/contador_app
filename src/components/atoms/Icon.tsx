@@ -5,7 +5,6 @@ interface Props {
   iconName: string;
   iconSize: number;
   iconcolor: string;
-  backgrondColor: string;
 }
 
 const Icon = ({iconName, iconSize, iconcolor}: Props) => {
