@@ -1,5 +1,7 @@
 # Contador_app
 
+# Moisés Ricardo Zabala Bueno 20200927
+
 Aplicacion de pruebas usando React Native para el curso de aplicaciones moviles 2023
 
 
@@ -17,32 +19,35 @@ Entregas por medio de Pull Requests - Crear un README_TU_NOMBRE.md en caso de ag
 
 
 
-- Cambios en el State
+- Cambios en el State: Cuando el State cambia, React Native se encarga de actualizar automáticamente la interfaz de usuario para reflejar los cambios. Para hacer cambios en el State se utiliza la función setState().
 
-- Contador
+- Contador: Un contador es un ejemplo común de cómo usar el State en React Native. En este caso, el State se utiliza para almacenar el valor del contador y se actualiza cada vez que se presiona un botón. Este es un ejemplo sencillo de cómo se puede utilizar el State para hacer que la aplicación responda a las interacciones del usuario.
 
-- Re-utilización de componentes
+- Re-utilización de componentes: Significa que se pueden crear componentes que se utilizan en varias partes de la aplicación. Esto reduce el tiempo de desarrollo y hace que la aplicación sea más fácil de mantener. Para reutilizar un componente, se crea una instancia del mismo en la parte de la aplicación donde se necesite.
 
-- Pantallas
+- Pantallas: Se refiere a una vista que muestra una parte de la interfaz de usuario de la aplicación. Las pantallas se crean utilizando componentes y se pueden navegar entre ellas utilizando diferentes técnicas.
 
-- Componentes personalizados
+- Componentes personalizados: Se pueden crear componentes personalizados para satisfacer las necesidades específicas de la aplicación. Para crear un componente personalizado se define una clase que extiende de "Component" y se implementa la lógica necesaria para la funcionalidad del componente.
 
-- Stylesheet
+- Stylesheet: Se utiliza un objeto de estilo similar a CSS para dar estilo a los componentes de la aplicación. El objeto de estilo se define utilizando JavaScript y se aplica a los componentes mediante la propiedad "style".
 
-- Envío de argumentos a componentes
+- Envío de argumentos a componentes: Los componentes pueden recibir argumentos que les permiten personalizar su comportamiento y apariencia. Estos argumentos se pasan como parámetros al crear una instancia del componente.
 
-- Tipando props
+- Tipando props: Es una buena práctica definir el tipo de datos que se espera recibir como argumentos en los componentes. Para tipar los props se pueden utilizar diferentes herramientas, como, por ejemplo, "PropTypes".
+
 
 - Componentes como:
 
-- View
 
-- Text
+- View: Se utiliza para crear contenedores para otros componentes.
 
-- TouchableOpacity
+- Text: Se utiliza para mostrar texto en la aplicación.
 
-- TouchableNativeFeedback
+- TouchableOpacity: Se utiliza para crear botones que responden al tacto del usuario.
 
-- TouchableWithoutFeedback
+- TouchableNativeFeedback: Se utiliza para crear botones con un aspecto nativo en Android.
+
+- TouchableWithoutFeedback: Se utiliza para detectar toques en un área determinada sin mostrar ningún feedback visual.
+
 
 El objetivo propiamente, es adentrarnos en nuestras primeras experiencias con React Native para crear una aplicación simple que nos de la noción de cómo trabajar en este framework, pero a la vez, dejarnos con la intriga de todo lo que estamos a punto de aprender :)
