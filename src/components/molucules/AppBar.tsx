@@ -1,10 +1,12 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
+import Icon from '../atoms/Icon';
+import {appStyles} from '../../styles/AppStyles';
 
 const AppBar = () => {
   return (
-    <View>
-      <Text>AppBar</Text>
+    <View style={appStyles.appBar}>
+      <Icon iconName="menu-outline" iconSize={30} iconcolor="black" />
     </View>
   );
 };
