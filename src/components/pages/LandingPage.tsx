@@ -1,6 +1,13 @@
 import React from 'react';
-import Profile from '../organisms/Profile';
+import LandingPageTemplate from '../templates/LandingPageTemplate';
+import {SafeAreaView, ScrollView} from 'react-native';
 
-const LandingPage = () => <Profile />;
+const LandingPage = () => (
+  <SafeAreaView>
+    <ScrollView>
+      <LandingPageTemplate />
+    </ScrollView>
+  </SafeAreaView>
+);
 
 export default LandingPage;

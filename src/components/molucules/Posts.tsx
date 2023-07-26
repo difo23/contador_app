@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from '../atoms/Card';
-import {StyleSheet, View} from 'react-native';
+import {View} from 'react-native';
+import {appStyles} from '../../styles/AppStyles';
 
 const Posts = () => (
-  <View style={styles.post}>
+  <View style={appStyles.post}>
     <Card
       title="Making a design system from scratch"
       date={'12 Feb 2020'}
@@ -22,11 +23,5 @@ const Posts = () => (
     />
   </View>
 );
-
-const styles = StyleSheet.create({
-  post: {
-    backgroundColor: '#EDF7FA',
-  },
-});
 
 export default Posts;

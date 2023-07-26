@@ -1,5 +1,6 @@
 import React from 'react';
-import {Pressable, StyleSheet, Text} from 'react-native';
+import {Pressable, Text} from 'react-native';
+import {appStyles} from '../../styles/AppStyles';
 
 interface Props {
   buttonTitle: string;
@@ -8,26 +9,10 @@ interface Props {
 
 const PrimaryButton = ({buttonTitle, onPressed}: Props) => {
   return (
-    <Pressable style={styles.button} onPress={onPressed}>
-      <Text style={styles.text}>{buttonTitle}</Text>
+    <Pressable style={appStyles.button} onPress={onPressed}>
+      <Text style={appStyles.text}>{buttonTitle}</Text>
     </Pressable>
   );
 };
-
-const styles = StyleSheet.create({
-  button: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: 3,
-    backgroundColor: '#FF6464',
-    padding: 10,
-    marginBottom: 30,
-  },
-
-  text: {
-    color: 'white',
-    fontWeight: 'bold',
-  },
-});
 
 export default PrimaryButton;

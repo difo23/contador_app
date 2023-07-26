@@ -1,5 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
+import {appStyles} from '../../styles/AppStyles';
 
 interface Props {
   title: string;
@@ -9,10 +10,10 @@ interface Props {
 }
 
 const Card = ({title, date, category, description}: Props) => (
-  <View style={styles.card}>
-    <View style={styles.cardContent}>
-      <Text style={styles.title}>{title}</Text>
-      <View style={styles.rowContainer}>
+  <View style={appStyles.card}>
+    <View style={appStyles.cardContent}>
+      <Text style={appStyles.title}>{title}</Text>
+      <View style={appStyles.rowContainer}>
         <Text>{date}</Text>
         <Text>|</Text>
         <Text>{category}</Text>
@@ -21,30 +22,5 @@ const Card = ({title, date, category, description}: Props) => (
     </View>
   </View>
 );
-
-const styles = StyleSheet.create({
-  card: {
-    borderRadius: 6,
-    elevation: 3,
-    backgroundColor: '#fff',
-    shadowColor: '#333',
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    marginHorizontal: 4,
-    marginVertical: 6,
-  },
-  cardContent: {
-    marginHorizontal: 18,
-    marginVertical: 10,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-});
 
 export default Card;
